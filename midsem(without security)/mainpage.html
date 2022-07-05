@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/gif/png" href="logo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {font-family: "Lato", sans-serif}
+//.mySlides {display: none}
+#Backg {
+  background-image: url('mainback.jpg');
+}
+a{
+  text-decoration: none;
+}
+#info{
+margin-top:330px;
+}
+.myslides {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+.card {
+  box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.8);
+  max-width: 350px;
+  height : 450px;
+  margin: auto;
+  margin-top:30px;
+  margin-bottom:26px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 15px;
+  padding:20px;
+}
+
+.info a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+
+.rotateimg90 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+}
+</style>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a disabled class="w3-bar-item w3-padding-large">HOME</a>
+    <a href="mainpage.html#course" class="w3-bar-item w3-button w3-padding-large w3-hide-small">OBJECTIVE</a>
+    <a href="mainpage.html#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">OUR TEAM</a>
+    
+    <a href="mainpage.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-padding-large w3-button" title="More">SIGN IN AS <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="studentlog.php" class="w3-bar-item w3-button">STUDENT</a>
+    <a href="adminlog.php" class="w3-bar-item w3-button">ELECTRORATE</a>
+
+    </div>
+    </div>
+     </div>
+</div>
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="NITk.jpg" style="width:1368px; height:512px;">
+     <div class="centered" style="width:1100px; height:700px; margin-top: 185px;">  
+  <h4><p id="info">To facilitate transformation of students into good human beings, responsible citizens and competent professionals, focusing on assimilation, generation and dissemination of knowledge.</p></h4>
+   
+  </div>
+   <a id="course"></a>
+  </div>
+  
+  </div>
+  <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey" >
+          <p style="margin-top:30px;"><h3><b>OBJECTIVE</b></h3></p>
+          <div class="card">
+  <h2>Online Voting System</h2>
+  <p class="title">Online voting technology can speed the counting of ballots,reduce the time required for staff to count votes manually.</p>
+  <p class="title">Ensuring secure voting system</p>
+ </div>
+ <a id="team"></a>
+</div>
+           <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+          <p><h3><b>OUR TEAM</b></h3></p>
+		  <div class="w3-third w3-section">
+          <div class="card">
+		  <div>
+		  <img src="lakshmi.jpg" alt="LAKSHMISH" style="margin-top:50px; width:200px; border:1px solid; border-radius:50%;" class="rotateimg90">
+         </div>
+  <h1><p style="margin-top:28px;">LAKSHMISH</p></h1>
+   <div style="margin: -20px 5px;"> 
+  <p class="name">(Front-End Developer)</p>
+  <p>15IT215 - IT DEPARTMENT</p>
+  </div>
+  <div class="info" style="margin: 25px 0;">
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-google-plus"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  </div>
+ </div>
+            <div class="w3-third w3-section">
+          <div class="card">
+		  <div>
+		  <img src="sac.jpg" alt="SACHIN" style="margin-top:20px; width:140px; height:200px; border:1px solid; border-radius:50%;">
+         </div>
+  <h1><p style="margin-top:-10px;">SACHIN</p></h1>
+   <div style="margin: -20px 5px;"> 
+  <p class="name">(Back-End Developer)</p>
+  <p>15IT253 - IT DEPARTMENT</p>
+  </div>
+  <div class="info" style="margin: 25px 0;">
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-google-plus"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  </div>
+ </div>
+           <div class="w3-third w3-section">
+          <div class="card">
+		  <div>
+		  <img src="harsha.jpg" alt="Harsha" style="margin-top:20px; width:140px; height:200px; border:1px solid; border-radius:50%;">
+         </div>
+  <h1><p style="margin-top:-10px;">HARSHA</p></h1>
+   <div style="margin: -20px 5px;"> 
+  <p class="name">(Front-End Developer)</p>
+  <p>15IT211 - IT DEPARTMENT</p>
+  </div>
+  <div class="info" style="margin: 25px 0;">
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-google-plus"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  </div>
+ </div>	
+ 
+ 
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px; margin-top:532px;">
+    <h2 class="w3-wide w3-center">Any Query?</h2>
+    <p class="w3-center" style="font-size:35px;"><b>Contact</b></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom" style="margin-left: 193px; margin-top: -60px;">
+        <i class="fa fa-user" style="width:30px"></i> Sachin Rathod<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91-78-46-988536<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: nieesachi.097@gmail.com<br>
+		<i class="fa fa-circle-o" style="width:30px"> </i> OVS Admin<br>
+        <a id="contact"></a>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
+ <p style="font-size:20px;">Copyright © OVS, LSH @ NITK 2018</p><br>
+ <p style="font-size:15px; margin-top:-40px;">* Best viewed in Mozilla Firefox® 20 or higher & Google Chrome 30 or higher. Strictly no support or access through Internet Explorer.</p>
+</footer>
+
+</body>
+</html>
